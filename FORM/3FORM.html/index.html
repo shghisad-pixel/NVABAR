@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registration</title>
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  <div class="reg-card">
+    <h1 class="reg-title">Registration</h1>
+
+    <div class="reg-type">
+      <label class="radio-label">
+        <input type="radio" name="accountType" value="personal" checked>
+        <span class="custom-radio"></span>
+        Personal
+      </label>
+      <label class="radio-label">
+        <input type="radio" name="accountType" value="company">
+        <span class="custom-radio"></span>
+        Company
+      </label>
+    </div>
+
+    <form onsubmit="return false;">
+      <div class="input-group">
+        <span class="input-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/>
+          </svg>
+        </span>
+        <input type="email" name="email" placeholder="Email" required>
+      </div>
+
+      <div class="input-group">
+        <span class="input-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/>
+          </svg>
+        </span>
+        <input type="text" name="name" placeholder="Name" required>
+      </div>
+
+      <div class="input-group">
+        <span class="input-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+            <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/>
+          </svg>
+        </span>
+        <input type="password" name="password" placeholder="Password" required>
+      </div>
+
+      <div class="gender-row">
+        <label class="radio-label">
+          <input type="radio" name="gender" value="male" checked>
+          <span class="custom-radio"></span>
+          Male
+        </label>
+        <label class="radio-label">
+          <input type="radio" name="gender" value="female">
+          <span class="custom-radio"></span>
+          Female
+        </label>
+      </div>
+
+      <div class="bottom-row">
+        <p class="terms">
+          By clicking Register, you agree on our
+          <a href="#">terms and condition</a>
+        </p>
+        <button type="submit" class="register-btn">Register</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
