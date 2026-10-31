@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.linkedin-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 3px solid #eee;
+    padding: 10px;
+}
+
+.linkedin-logo {
+    background: #0a66c2;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0 5px;
+    border-radius: 2px;
+}
+
+.linkedin-navbar input {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+.nav-item {
+    text-align: center;
+    color: #666;
+    font-size: 11px;
+    cursor: pointer;
+    min-width: 45px;
+}
+
+.nav-item span {
+    display: block;
+    font-size: 19px;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.nav-item p {
+    white-space: nowrap;
+}
+
+.premium {
+    font-size: 10px;
+}
+
+@media (max-width: 700px) {
+    .linkedin-navbar {
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.instagram-footer {
+    background-color: #0b1012;
+    color: #aaa;
+    padding: 25px 15px;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #aaa;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.instagram-footer p {
+    font-size: 10px;
+    margin-top: 10px;
+}
